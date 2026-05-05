@@ -1,5 +1,5 @@
 /**
- * arenza-vercel-ai-sdk — Vercel AI SDK tools for the Arenza GEO platform.
+* @arenza/vercel-ai-sdk — Vercel AI SDK tools for the Arenza GEO platform.
  *
  * Drop the result of `arenzaTools(client)` into the `tools` field of
  * `streamText` / `generateText`. The agent (whether you're calling
@@ -10,7 +10,7 @@
  *
  *     import { streamText } from 'ai';
  *     import { ArenzaMCPClient } from '@arenza/mcp-client';
- *     import { arenzaTools } from 'arenza-vercel-ai-sdk';
+ *     import { arenzaTools } from '@arenza/vercel-ai-sdk';
  *
  *     const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
  *
