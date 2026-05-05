@@ -174,13 +174,13 @@ export async function scanForUser(brandDomain: string) {
 
 ## Related projects
 
-- [`arenza-mcp-client`](https://github.com/naiqiao/arenza-mcp-client-ts) — the typed TS client this wraps.
-- [`arenza-mcp-client-python`](https://github.com/naiqiao/arenza-mcp-client-python) — Python equivalent.
-- [`arenza-cli`](https://github.com/naiqiao/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
-- [`arenza-langchain`](https://github.com/naiqiao/arenza-langchain) — same six tools wrapped for LangChain / LangGraph.
-- [`arenza-llamaindex`](https://github.com/naiqiao/arenza-llamaindex) — same for LlamaIndex.
-- [`arenza-zapier-actions`](https://github.com/naiqiao/arenza-zapier-actions) — Zapier integration manifest.
-- [awesome-geo](https://github.com/naiqiao/awesome-geo) — curated list of GEO and AI-visibility resources.
+- [`arenza-mcp-client`](https://github.com/arenza-ai/arenza-mcp-client-ts) — the typed TS client this wraps.
+- [`arenza-mcp-client-python`](https://github.com/arenza-ai/arenza-mcp-client-python) — Python equivalent.
+- [`arenza-cli`](https://github.com/arenza-ai/arenza-cli) — `npx arenza scan brand.com` for terminal scans.
+- [`arenza-langchain`](https://github.com/arenza-ai/arenza-langchain) — same six tools wrapped for LangChain / LangGraph.
+- [`arenza-llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same for LlamaIndex.
+- [`arenza-zapier-actions`](https://github.com/arenza-ai/arenza-zapier-actions) — Zapier integration manifest.
+- [awesome-geo](https://github.com/arenza-ai/awesome-geo) — curated list of GEO and AI-visibility resources.
 
 ## Resources
 

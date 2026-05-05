@@ -28,10 +28,10 @@
   "homepage": "https://arenza.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naiqiao/arenza-vercel-ai-sdk.git"
+    "url": "git+https://github.com/arenza-ai/arenza-vercel-ai-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/naiqiao/arenza-vercel-ai-sdk/issues"
+    "url": "https://github.com/arenza-ai/arenza-vercel-ai-sdk/issues"
   },
   "type": "module",
   "main": "dist/index.js",
