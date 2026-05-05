@@ -9,7 +9,7 @@
  * opt-in via `{ includeWrite: true }`.
  *
  *     import { streamText } from 'ai';
- *     import { ArenzaMCPClient } from 'arenza-mcp-client';
+ *     import { ArenzaMCPClient } from '@arenza/mcp-client';
  *     import { arenzaTools } from 'arenza-vercel-ai-sdk';
  *
  *     const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });

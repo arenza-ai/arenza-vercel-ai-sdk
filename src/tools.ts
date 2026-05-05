@@ -10,7 +10,7 @@
 
 import { tool } from 'ai';
 import type { Tool } from 'ai';
-import type { ArenzaMCPClient } from 'arenza-mcp-client';
+import type { ArenzaMCPClient } from '@arenza/mcp-client';
 import { z } from 'zod';
 
 export interface ArenzaToolsOptions {
