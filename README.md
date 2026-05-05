@@ -11,9 +11,9 @@ AI SDK agents that need to answer "how does ChatGPT describe my brand?" or "what
 ## Install
 
 ```bash
-npm install arenza-vercel-ai-sdk arenza-mcp-client ai
+npm install @arenza/vercel-ai-sdk arenza-mcp-client ai
 # or
-pnpm add arenza-vercel-ai-sdk arenza-mcp-client ai
+pnpm add @arenza/vercel-ai-sdk arenza-mcp-client ai
 ```
 
 `ai` is a peer dependency (`>=4.0.0`). Install whichever version your app already uses.
@@ -24,8 +24,8 @@ pnpm add arenza-vercel-ai-sdk arenza-mcp-client ai
 // app/api/chat/route.ts
 import { streamText } from 'ai';
 import { openai } from '@ai-sdk/openai';
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { arenzaTools } from 'arenza-vercel-ai-sdk';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { arenzaTools } from '@arenza/vercel-ai-sdk';
 
 const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
 
@@ -47,8 +47,8 @@ The agent will call `arenza_list_brands`, `arenza_get_brand_overview`, `arenza_l
 ```ts
 import { generateText } from 'ai';
 import { anthropic } from '@ai-sdk/anthropic';
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { arenzaTools } from 'arenza-vercel-ai-sdk';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { arenzaTools } from '@arenza/vercel-ai-sdk';
 
 const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
 
@@ -131,8 +131,8 @@ const result = streamText({
 ```ts
 import { generateText } from 'ai';
 import { anthropic } from '@ai-sdk/anthropic';
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { arenzaTools } from 'arenza-vercel-ai-sdk';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { arenzaTools } from '@arenza/vercel-ai-sdk';
 
 export async function weeklyTriage() {
   const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
@@ -158,8 +158,8 @@ Schedule with [Vercel Cron](https://vercel.com/docs/cron-jobs) and you have an a
 
 import { generateText } from 'ai';
 import { openai } from '@ai-sdk/openai';
-import { ArenzaMCPClient } from 'arenza-mcp-client';
-import { arenzaTools } from 'arenza-vercel-ai-sdk';
+import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { arenzaTools } from '@arenza/vercel-ai-sdk';
 
 export async function scanForUser(brandDomain: string) {
   const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });

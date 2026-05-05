@@ -1,7 +1,7 @@
 {
-  "name": "arenza-vercel-ai-sdk",
+  "name": "@arenza/vercel-ai-sdk",
   "version": "0.1.0",
-  "description": "Vercel AI SDK tools for Arenza — drop-in tools you can pass to streamText / generateText so any agent (ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok) can read AI visibility metrics, GEO opportunities, and brand mention data.",
+  "description": "Vercel AI SDK tools for Arenza \u2014 drop-in tools you can pass to streamText / generateText so any agent (ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok) can read AI visibility metrics, GEO opportunities, and brand mention data.",
   "keywords": [
     "arenza",
     "geo",
@@ -50,7 +50,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "arenza-mcp-client": "^0.1.0",
+    "@arenza/mcp-client": "^0.1.0",
     "zod": "^3.23.0"
   },
   "peerDependencies": {
